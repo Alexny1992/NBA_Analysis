@@ -97,26 +97,26 @@ The summary of our linear model showed an adjusted R^2 of 0.633 and a significan
 
 ### 2021 - 2022 Regular Season
 In the 2021-2022 regular season, there has been a shift in the team with the highest PER, as the Golden State Warriors no longer hold that position. Instead, the Houston Rockets, Toronto Raptors, and Minnesota Timberwolves seem to have similar team PER values but exhibit different win ratios. Once again, we observe a notable trend in the Western Conference, with teams having higher PER scores also showcasing higher win ratios, resulting in a concentrated cluster in the upper-right portion of the graph.
-![Corr_2021-2022](https://github.com/timmy224/NBA_Analysis/blob/master/images/Corr_17-18.png?raw=true) 
+![Corr_2021-2022](https://github.com/Alexny1992/NBA_Analysis/blob/main/NBA_Analysis/Images/2019-2020-TeamPER-vs-Winrate.png) 
 
 There is an improvement for this season's linear model with an adjusted R^2 of 0.711 and significant F-statistic explaining the variability in data. Despite an improved probability for Omnibus (0.909)  and random pattern in our residuals plot, there are clear outliers in our data as represented by Phoenix, Memphis, Boston, and Minnesota teams. According to the Q-Q plot, there seems to be fewer deviations from the predicted team PER values relative to the previous season. 
 
 <p float="center">
-  <img src="https://github.com/timmy224/NBA_Analysis/blob/master/images/OLS_17-18.png?raw=true" width="290" />
-  <img src="https://github.com/timmy224/NBA_Analysis/blob/master/images/Residual_17-18.png?raw=true" width="290" /> 
-  <img src="https://github.com/timmy224/NBA_Analysis/blob/master/images/QQ_17-18.png?raw=true" width="290" />
+  <img src="https://github.com/Alexny1992/NBA_Analysis/blob/main/NBA_Analysis/Images/2019-2020-Normal_QQ.png" width="290" />
+  <img src="https://github.com/Alexny1992/NBA_Analysis/blob/main/NBA_Analysis/Images/2019-2022-Residuals-vs-Fitted.png" width="290" /> 
+  <img src="https://github.com/Alexny1992/NBA_Analysis/blob/main/NBA_Analysis/Images/2019-2020-Regression.png" width="290" />
 </p>
 
 ### 2022 - 2023 Regular Season
 Compared to the previous season, the Memphis Grizzlies and Phoenix Suns deviate from this linear model with the Memphis Grizzlies having a higher win ratio with similar Team PER, and the Pheonix Suns having similar win ratio and Team PER.
-![Corr_2018-2019](https://github.com/timmy224/NBA_Analysis/blob/master/images/Corr_18-19.png?raw=true)
+![Corr_2022-2023](file:///Users/alexwang/Documents/Alex/Programming/Projects/NBA_Analysis/NBA_Analysis/Images/2022-2023-TeamPER-vs-WinRate.png)
  
 The summary of our linear model indicated that our model had an adjusted R^2 of 0.722 and significant according to F-statistics. The residuals do not appear to be randomly dispersed with a low Omnibus probability value of 0.081 indicating our residuals are not normally distributed. There is also moderate skew as indicated by the skew value of -0.816 and Q-Q plot. 
 
 <p float="center">
-  <img src="https://github.com/timmy224/NBA_Analysis/blob/master/images/OLS_18-19.png?raw=true" width="290" />
-  <img src="https://github.com/timmy224/NBA_Analysis/blob/master/images/Residual_18-19.png?raw=true" width="290" /> 
-  <img src="https://github.com/timmy224/NBA_Analysis/blob/master/images/QQ_18-19.png?raw=true" width="290" />
+  <img src="https://github.com/Alexny1992/NBA_Analysis/blob/main/NBA_Analysis/Images/2022-2023-Regression.png" width="290" />
+  <img src="https://github.com/Alexny1992/NBA_Analysis/blob/main/NBA_Analysis/Images/2022-2023-Normal_QQ.png" width="290" /> 
+  <img src="https://github.com/Alexny1992/NBA_Analysis/blob/main/NBA_Analysis/Images/2022-2023-Residuals-vs-Fitted.png" width="290" />
 </p>
 
 
