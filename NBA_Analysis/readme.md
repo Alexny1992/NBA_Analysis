@@ -83,16 +83,16 @@ All of the PER for different positions seem similar to each other with extreme P
 
 
 
-### 2018 - 2019 Regular Season
+### 2019 - 2020 Regular Season
 There is a distinct linear trend when examining the correlation between Team PER and win ratio. When comparing teams belonging to different conferences, the Western Conference comparatively has stronger teams indicated by the cluster representing high team PER and win ratio. 
-![Corr_2018-2019](https://github.com/Alexny1992/NBA_Analysis/blob/main/NBA_Analysis/Images/2018-2019-TeamPERvsWinRate.png) 
+![Corr_2019-2020](https://github.com/Alexny1992/NBA_Analysis/blob/main/NBA_Analysis/Images/2019-2020-TeamPER-vs-Winrate.png) 
 
 The summary of our linear model showed an adjusted R^2 of 0.633 and a significant F-statistic. However, when evaluating our model with residuals, we can see there are extreme residuals (especially Minnesota Timberwolves) with an overestimation for lower team PER. Our probability value for Omnibus is low which supports that residuals are not normally distributed. Extreme deviations at the tails will skew distribution as observed in the Q-Q plot. 
 
 <p float="center">
-  <img src="https://github.com/timmy224/NBA_Analysis/blob/master/images/OLS_16-17.png?raw=true" width="290" />
-  <img src="https://github.com/timmy224/NBA_Analysis/blob/master/images/Residual_16-17.png?raw=true" width="290" /> 
-  <img src="https://github.com/timmy224/NBA_Analysis/blob/master/images/QQ_16-17.png?raw=true" width="290" />
+  <img src="https://github.com/Alexny1992/NBA_Analysis/blob/main/NBA_Analysis/Images/2019-2020-Regression.png" width="290" />
+  <img src="https://github.com/Alexny1992/NBA_Analysis/blob/main/NBA_Analysis/Images/2019-2020-Normal_QQ.png" width="290" /> 
+  <img src="https://github.com/Alexny1992/NBA_Analysis/blob/main/NBA_Analysis/Images/2019-2020-OLS.png" width="290" />
 </p>
 
 ### 2021 - 2022 Regular Season
