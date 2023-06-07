@@ -127,31 +127,31 @@ In spite of the varying goodness-of-fit of linear models when applied to past se
 ![Pred_22-23](https://github.com/Alexny1992/NBA_Analysis/blob/main/NBA_Analysis/Images/2022-2023-Regular-Season-Pred.png)
 
 ### Top 16 teams 
-Using the linear regression generated from data of 2017 - 2018, 10 out of 16 (62.5%) teams were correctly predicted to qualify for playoffs using the 2017-2018 model (bolded team abbreviations were not predicted).  
+Using the linear regression generated from data of 2022 - 2023, 11 out of 16 (68.5%) teams were correctly predicted to qualify for playoffs using the 2021-2022 model (bolded team abbreviations were not predicted).  
 
 ####                        Eastern Conference                     
 |      Actual  2022 - 2023      |  Prediction 21-22, 19-20 model  |
 |:-----------------------------:|:-------------------------------:|
-|              MIL              |                BOS              | 
-|              TOR              |                MIL              |
-|            **PHI**            |                TOR              |
-|              BOS              |                IND              |
-|              IND              |                ORL              |
-|              BRK              |              **CHO**            |
-|              ORL              |              **MIA**            |
-|            **DET**            |                BRK              | 
+|              BOS              |                BOS              | 
+|            **CLE**            |                MIL              |
+|              PHI              |                TOR              |
+|              MIL              |              **MIA**            |
+|            **NYK**            |                MIL              |
+|              TOR              |                PHI              |
+|            **CHI**            |              **IND**            |
+|            **BRK**            |                TOR              | 
 
 ####                         Western Conference                      
 |      Actual  2022 - 2023      |  Prediction 21-22, 19-20 model  |
 |:-----------------------------:|:-------------------------------:|
+|              MEM              |                PHO              |
+|              DEN              |              **LAC**            |
+|            **SAC**            |              **UTA**            |
+|              PHO              |                MEM              |
+|            **NOP**            |                LAL              |
 |              GSW              |                GSW              |
-|              DEN              |                SAS              |
-|              POR              |                DEN              |
-|              HOU              |                HOU              |
-|              UTA              |                POR              |
-|              OKC              |                OKC              |
-|              SAS              |                UTA              |
-|            **LAC**            |              **MIN**            |
+|            **OKC**            |              **DAL**            |
+|              LAL              |                DEN              |
 
 ## Discussion
 Based on the data from the last 3 seasons, a clear linear relationship can be observed between Team PER and win ratio. It is logical to expect that teams with higher PER would perform better and win more games during the season. The linear models used in our analysis showed statistical significance, with supporting adjusted R^2 and F-statistic values from the Wald test. However, it is important to note that there were outliers present in the data, which increased the variability in our model.
