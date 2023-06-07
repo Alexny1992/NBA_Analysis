@@ -67,7 +67,7 @@ For the simplicity of this personal project, only the last 3 seasons were used t
 
 Team PER was calculated by taking the PERs of the top 12 MP players and multiplying it with their respective minutes played. PER is a per-minute rating so by multiplying it with minutes played, it gives players with more minutes played more weight in the team PER value. If a high PER player doesn't play as many minutes, he may not contribute as much to team PER relative to a teammate who has average PER but has played a higher number of minutes. 
 
-Because preliminary data showed that our data was heteroscedastic, a BoxCox test and transformation was applied to team PER values to make it more homoscedastic. BoxCox test returned a lambda of ~0.546, which corresponds to a log transformation of the data. 
+Because preliminary data showed that our data was heteroscedastic, a BoxCox test and transformation was applied to team PER values to make it more homoscedastic. BoxCox test returned a lambda of ~0.446, which corresponds to a log transformation of the data. 
 
 Linear models were created using Ordinary Least Squares and evaluated using adjusted R^2, F-statistic from Wald test, residual, and Q-Q plots. 
 
@@ -83,9 +83,9 @@ All of the PER for different positions seem similar to each other with extreme P
 
 
 
-### 2019 - 2020 Regular Season
+### 2018 - 2019 Regular Season
 There is a distinct linear trend when examining the correlation between Team PER and win ratio. When comparing teams belonging to different conferences, the Western Conference comparatively has stronger teams indicated by the cluster representing high team PER and win ratio. 
-![Corr_2016-2017](https://github.com/timmy224/NBA_Analysis/blob/master/images/Corr_16-17.png?raw=true) 
+![Corr_2018-2019](https://github.com/Alexny1992/NBA_Analysis/blob/main/NBA_Analysis/Images/2018-2019-TeamPERvsWinRate.png) 
 
 The summary of our linear model showed an adjusted R^2 of 0.633 and a significant F-statistic. However, when evaluating our model with residuals, we can see there are extreme residuals (especially Minnesota Timberwolves) with an overestimation for lower team PER. Our probability value for Omnibus is low which supports that residuals are not normally distributed. Extreme deviations at the tails will skew distribution as observed in the Q-Q plot. 
 
@@ -96,8 +96,8 @@ The summary of our linear model showed an adjusted R^2 of 0.633 and a significan
 </p>
 
 ### 2021 - 2022 Regular Season
-In the 2017-2018 regular season, we can see that the Golden State Warriors are no longer the team with the highest PER. The Houston Rockets, Toronto Raptors, and Minnesota Timberwolves appear to have similar team PER, but different win ratios. As observed again, the Western Conference shows a strong correlation for having teams with higher PER and win ratio with a larger cluster in the upright portion of the graph. 
-![Corr_2017-2018](https://github.com/timmy224/NBA_Analysis/blob/master/images/Corr_17-18.png?raw=true) 
+In the 2021-2022 regular season, there has been a shift in the team with the highest PER, as the Golden State Warriors no longer hold that position. Instead, the Houston Rockets, Toronto Raptors, and Minnesota Timberwolves seem to have similar team PER values but exhibit different win ratios. Once again, we observe a notable trend in the Western Conference, with teams having higher PER scores also showcasing higher win ratios, resulting in a concentrated cluster in the upper-right portion of the graph.
+![Corr_2021-2022](https://github.com/timmy224/NBA_Analysis/blob/master/images/Corr_17-18.png?raw=true) 
 
 There is an improvement for this season's linear model with an adjusted R^2 of 0.711 and significant F-statistic explaining the variability in data. Despite an improved probability for Omnibus (0.909)  and random pattern in our residuals plot, there are clear outliers in our data as represented by Phoenix, Memphis, Boston, and Minnesota teams. According to the Q-Q plot, there seems to be fewer deviations from the predicted team PER values relative to the previous season. 
 
