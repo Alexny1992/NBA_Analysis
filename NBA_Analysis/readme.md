@@ -89,6 +89,7 @@ There is a distinct linear trend when examining the correlation between Team PER
 
 The summary of our linear model showed an adjusted R^2 of -0.013 and a significant F-statistic. However, when evaluating our model with residuals, we can see there are extreme residuals with an overestimation for lower team PER. Our probability value for Omnibus is low which supports that residuals are not normally distributed. Extreme deviations at the tails will skew distribution as observed in the Q-Q plot. 
 
+
 <p float="center">
   <img src="https://github.com/Alexny1992/NBA_Analysis/blob/main/NBA_Analysis/Images/2019-2020-Normal_QQ.png" width="290" /> 
   <img src="https://github.com/Alexny1992/NBA_Analysis/blob/main/NBA_Analysis/Images/2019-2020-OLS.png" width="290" />
@@ -97,27 +98,25 @@ The summary of our linear model showed an adjusted R^2 of -0.013 and a significa
 
 ### 2021 - 2022 Regular Season
 In the 2021-2022 regular season, there has been a shift in the team with the highest PER, as the Golden State Warriors no longer hold that position. Instead, the Houston Rockets, Toronto Raptors, and Minnesota Timberwolves seem to have similar team PER values but exhibit different win ratios. Once again, we observe a notable trend in the Western Conference, with teams having higher PER scores also showcasing higher win ratios, resulting in a concentrated cluster in the upper-right portion of the graph.
-![Corr_2021-2022](https://github.com/Alexny1992/NBA_Analysis/blob/main/NBA_Analysis/Images/2019-2020-TeamPER-vs-Winrate.png) 
+![Corr_2021-2022](https://github.com/Alexny1992/NBA_Analysis/blob/main/NBA_Analysis/Images/2021-2022-TeamPER-vs-WinRate.png) 
 
-There is an improvement for this season's linear model with an adjusted R^2 of 0.703 and significant F-statistic explaining the variability in data. Despite an improved probability for Omnibus (0.002)  and random pattern in our residuals plot, indicating our residuals are not normally distributed
-there are clear outliers in our data as represented by Phoenix, Memphis, Boston, and Minnesota teams. According to the Q-Q plot, there seems to be fewer deviations from the predicted team PER values relative to the previous season. 
+There is an improvement for this season's linear model with an adjusted R^2 of 0.703 and significant F-statistic explaining the variability in data. Omnibus probability 1.235 can further support it, indicating the data are normally distributed. 
 
 <p float="center">
-  <img src="https://github.com/Alexny1992/NBA_Analysis/blob/main/NBA_Analysis/Images/2019-2020-Normal_QQ.png" width="290" />
-  <img src="https://github.com/Alexny1992/NBA_Analysis/blob/main/NBA_Analysis/Images/2019-2022-Residuals-vs-Fitted.png" width="290" /> 
-  <img src="https://github.com/Alexny1992/NBA_Analysis/blob/main/NBA_Analysis/Images/2019-2020-Regression.png" width="290" />
+  <img src="https://github.com/Alexny1992/NBA_Analysis/blob/main/NBA_Analysis/Images/2021-2022_Normal_QQ.png" width="290" />
+  <img src="https://github.com/Alexny1992/NBA_Analysis/blob/main/NBA_Analysis/Images/2021-2022-Residuals-vs-Fitted.png" width="290" /> 
+  <img src="https://github.com/Alexny1992/NBA_Analysis/blob/main/NBA_Analysis/Images/2021-2022-OLS.png" width="290" />
 </p>
 
 ### 2022 - 2023 Regular Season
-Compared to the previous season, the Memphis Grizzlies and Phoenix Suns deviate from this linear model with the Memphis Grizzlies having a higher win ratio with similar Team PER, and the Pheonix Suns having similar win ratio and Team PER.
 ![Corr_2022-2023](file:///Users/alexwang/Documents/Alex/Programming/Projects/NBA_Analysis/NBA_Analysis/Images/2022-2023-TeamPER-vs-WinRate.png)
  
-The summary of our linear model indicated that our model had an adjusted R^2 of 0.703 and significant according to F-statistics. The residuals do not appear to be randomly dispersed with a low Omnibus probability value of 0.081 indicating our residuals are not normally distributed. There is also moderate skew as indicated by the skew value of -0.816 and Q-Q plot. 
+The summary of our linear model indicated that our model had an adjusted R^2 of 0.532 and significant according to F-statistics. With Omnibus probability value of 0.961 it is indicating our residuals are normally distributed. 
 
 <p float="center">
   <img src="https://github.com/Alexny1992/NBA_Analysis/blob/main/NBA_Analysis/Images/2022-2023-Normal_QQ.png" width="290" /> 
   <img src="https://github.com/Alexny1992/NBA_Analysis/blob/main/NBA_Analysis/Images/2022-2023-Residuals-vs-Fitted.png" width="290" />
-  <img src="https://github.com/Alexny1992/NBA_Analysis/blob/main/NBA_Analysis/Images/2022-2023-Regression.png" width="290" />
+  <img src="https://github.com/Alexny1992/NBA_Analysis/blob/main/NBA_Analysis/Images/2022-2023-OLS.png" width="290" />
 </p>
 
 
