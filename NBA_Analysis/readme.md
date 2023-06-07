@@ -64,7 +64,7 @@ Linear models were created using Ordinary Least Squares and evaluated using adju
 
 ## Results and Data Analysis
 When examining the distribution of PER for players across each season, we see that most distributions are right-skewed. 
-![Frequency Histogram](https://github.com/timmy224/NBA_Analysis/blob/master/images/Hist_Season_Player_PER.png?raw=true)
+![Frequency Histogram](https://github.com/Alexny1992/NBA_Analysis/blob/main/NBA_Analysis/Images/hist_SeasonPlayerPER.png))
 
 ![Q-Q Plot](https://github.com/timmy224/NBA_Analysis/blob/master/images/QQ_Season_Player_PER.png?raw=true)
 
