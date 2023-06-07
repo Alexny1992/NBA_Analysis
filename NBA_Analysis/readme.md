@@ -97,7 +97,7 @@ The summary of our linear model showed an adjusted R^2 of -0.013 and a significa
 </p>
 
 ### 2021 - 2022 Regular Season
-In the 2021-2022 regular season, there has been a shift in the team with the highest PER, as the Golden State Warriors no longer hold that position. Instead, the Houston Rockets, Toronto Raptors, and Minnesota Timberwolves seem to have similar team PER values but exhibit different win ratios. Once again, we observe a notable trend in the Western Conference, with teams having higher PER scores also showcasing higher win ratios, resulting in a concentrated cluster in the upper-right portion of the graph.
+In the 2021-2022 regular season, there has been a shift in the team with the highest PER, as the Golden State Warriors no longer hold that position. Instead, the Milwaukee Bucks, Washington Wizards, and The Indiana Pacers seem to have similar team PER values but exhibit different win ratios. Once again, we observe a notable trend in the Western Conference, with teams having higher PER scores also showcasing higher win ratios, resulting in a concentrated cluster in the upper-right portion of the graph.
 ![Corr_2021-2022](https://github.com/Alexny1992/NBA_Analysis/blob/main/NBA_Analysis/Images/2022-2023-TeamPER-vs-WinRate.png)
 
 There is an improvement for this season's linear model with an adjusted R^2 of 0.703 and significant F-statistic explaining the variability in data. Omnibus probability 1.235 can further support it, indicating the data are normally distributed. 
