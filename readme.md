@@ -1,4 +1,4 @@
-# NBA Analysis
+# NBA Analysis (Tablaue At the end)
 
 ## Description
 The objective of this analysis was to investigate the relationship between the calculated team PER and win ratio, with a specific focus on forecasting playoff qualification. To accomplish this, regression analysis was employed utilizing the Ordinary Least Squares (OLS) method.
@@ -166,7 +166,7 @@ In summary, while the relationship between Team PER and win ratio demonstrates a
 
 
 ## Tableau Dashboard (Click Image for Interactive View)
-(https://public.tableau.com/views/2022-2023NBA_Analysis/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+(https://github.com/Alexny1992/NBA_Analysis/blob/main/NBA_Analysis/Images/Tableau_Dash.png)
 
 
 ## Notes
