@@ -165,8 +165,8 @@ In summary, while the relationship between Team PER and win ratio demonstrates a
 
 
 
-## Tableau Supplement (Click Image for Interactive View)
-[![Tableau Thumbnail] #Need_to_update
+## Tableau Dashboard (Click Image for Interactive View)
+(https://public.tableau.com/app/profile/alex.wang3519/viz/2022-2023NBA_Analysis/Dashboard1?publish=yes)
 
 
 ## Notes
