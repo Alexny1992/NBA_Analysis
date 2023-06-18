@@ -67,7 +67,7 @@ For the simplicity of this personal project, only the last 3 seasons were used t
 
 Team PER was calculated by taking the PERs of the top 12 MP players and multiplying it with their respective minutes played. PER is a per-minute rating so by multiplying it with minutes played, it gives players with more minutes played more weight in the team PER value. If a high PER player doesn't play as many minutes, he may not contribute as much to team PER relative to a teammate who has average PER but has played a higher number of minutes. 
 
-Because preliminary data showed that our data was heteroscedastic, a BoxCox test and transformation was applied to team PER values to make it more homoscedastic. BoxCox test returned a lambda of ~0.446, which corresponds to a log transformation of the data. 
+Because preliminary data showed that our data were heteroscedastic, a BoxCox test and transformation were applied to team PER values to make it more homoscedastic. BoxCox test returned a lambda of ~0.446, which corresponds to a log transformation of the data. 
 
 Linear models were created using Ordinary Least Squares and evaluated using adjusted R^2, F-statistic from Wald test, residual, and Q-Q plots. 
 
@@ -100,7 +100,7 @@ The summary of our linear model showed an adjusted R^2 of -0.013 and a significa
 In the 2021-2022 regular season, there has been a shift in the team with the highest PER, as the Golden State Warriors no longer hold that position. Instead, the Milwaukee Bucks, Washington Wizards, and The Indiana Pacers seem to have similar team PER values but exhibit different win ratios. Once again, we observe a notable trend in the Western Conference, with teams having higher PER scores also showcasing higher win ratios, resulting in a concentrated cluster in the upper-right portion of the graph.
 ![Corr_2021-2022](https://github.com/Alexny1992/NBA_Analysis/blob/main/NBA_Analysis/Images/2022-2023-TeamPER-vs-WinRate.png)
 
-There is an improvement for this season's linear model with an adjusted R^2 of 0.703 and significant F-statistic explaining the variability in data. Omnibus probability 1.235 can further support it, indicating the data are normally distributed. 
+There is an improvement for this season's linear model with an adjusted R^2 of 0.703 and significant F-statistic explaining the variability in data. Omnibus probability 1.235 can further support it, indicating the data are typically distributed. 
 
 <p float="center">
   <img src="https://github.com/Alexny1992/NBA_Analysis/blob/main/NBA_Analysis/Images/2021-2022_Normal_QQ.png" width="290" />
@@ -111,7 +111,7 @@ There is an improvement for this season's linear model with an adjusted R^2 of 0
 ### 2022 - 2023 Regular Season
 ![Corr_2022-2023] ("https://github.com/Alexny1992/NBA_Analysis/blob/main/NBA_Analysis/Images/2022-2023-TeamPER-vs-WinRate.png")
  
-The summary of our linear model indicated that our model had an adjusted R^2 of 0.532 and significant according to F-statistics. With Omnibus probability value of 0.961 it is indicating our residuals are normally distributed. 
+The summary of our linear model indicated that our model had an adjusted R^2 of 0.532 and was significant according to F-statistics. With Omnibus probability value of 0.961 it is indicating our residuals are normally distributed. 
 
 <p float="center">
   <img src="https://github.com/Alexny1992/NBA_Analysis/blob/main/NBA_Analysis/Images/2022-2023-Normal_QQ.png" width="290" /> 
@@ -155,7 +155,7 @@ Using the linear regression generated from data of 2022 - 2023, 11 out of 16 (68
 ## Discussion
 Based on the data from the last 3 seasons, a clear linear relationship can be observed between Team PER and win ratio. It is logical to expect that teams with higher PER would perform better and win more games during the season. The linear models used in our analysis showed statistical significance, with supporting adjusted R^2 and F-statistic values from the Wald test. However, it is important to note that there were outliers present in the data, which increased the variability in our model.
 
-The outliers in our analysis can be explained in various ways. For teams with high PER but underperforming, this could be attributed to individual players with high PER who play a significant number of minutes but do not consistently contribute to winning games. These teams may rely heavily on one or two star players who perform efficiently but lack a strong supporting bench, resulting in a lower win ratio. On the other hand, teams with low PER but overperforming may have high-performing players who are not on the court for extended periods, while the bench players contribute significantly during the game. This situation can occur when a team secures a substantial lead early in the game, leading to star players being benched for injury prevention or rest in preparation for future games.
+The outliers in our analysis can be explained in various ways. For teams with high PER but underperforming, this could be attributed to individual players with high PER who play a significant number of minutes but do not consistently contribute to winning games. These teams may rely heavily on one or two-star players who perform efficiently but lack a strong supporting bench, resulting in a lower win ratio. On the other hand, teams with low PER but overperforming may have high-performing players who are not on the court for extended periods, while the bench players contribute significantly during the game. This situation can occur when a team secures a substantial lead early in the game, leading to star players being benched for injury prevention or rest in preparation for future games.
 
 It is worth noting that while team PER from the previous season can predict the majority of teams that will make the playoffs in the subsequent season, its reliability is limited to an accuracy of 62.5%.
 
