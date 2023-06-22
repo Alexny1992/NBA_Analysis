@@ -87,7 +87,7 @@ All of the PER for different positions seem similar to each other with extreme P
 There is a distinct linear trend when examining the correlation between Team PER and win ratio. When comparing teams belonging to different conferences, the Western Conference comparatively has stronger teams indicated by the cluster representing high team PER and win ratio. 
 ![Corr_2019-2020](https://github.com/Alexny1992/NBA_Analysis/blob/main/NBA_Analysis/Images/2019-2020-TeamPER-vs-Winrate.png) 
 
-The summary of our linear model showed an adjusted R^2 of -0.013 and a significant F-statistic. However, when evaluating our model with residuals, we can see there are extreme residuals with an overestimation for lower team PER. Our probability value for Omnibus is low which supports that residuals are not normally distributed. Extreme deviations at the tails will skew distribution as observed in the Q-Q plot. 
+The summary of our linear model showed an adjusted R^2 of 0.022 and a significant F-statistic. However, when evaluating our model with residuals, we can see there are extreme residuals with an overestimation for lower team PER. Our probability value for Omnibus is low which supports that residuals are not normally distributed. Extreme deviations at the tails will skew distribution as observed in the Q-Q plot. 
 
 
 <p float="center">
