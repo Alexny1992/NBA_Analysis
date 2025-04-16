@@ -1,4 +1,4 @@
-# NBA Analysis (Tablaue At the end)
+# NBA Analysis (Tableau At the end)
 
 ## Description
 The objective of this analysis was to investigate the relationship between the calculated team PER and win ratio, with a specific focus on forecasting playoff qualification. To accomplish this, regression analysis was employed utilizing the Ordinary Least Squares (OLS) method.
